@@ -10,13 +10,13 @@ cd ~
 sudo apt install git
 git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
-git checkout Copter-3.6
+git checkout Copter-4.4
 git submodule update --init --recursive
 ```
 
 ## Install dependencies:
 ```
-sudo apt install python-matplotlib python-serial python-wxgtk3.0 python-wxtools python-lxml python-scipy python-opencv ccache gawk python-pip python-pexpect
+sudo apt install python-matplotlib python-serial python-wxgtk4.0 python-wxtools python-lxml python-scipy python-opencv ccache gawk python-pip python-pexpect
 ```
 
 ## Use pip (Python package installer) to install mavproxy:
